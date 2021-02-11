@@ -1,6 +1,6 @@
 .background-color {
-    background-image: linear-gradient(rgb(3, 146, 235), rgb(3, 183, 42));
-    /* background-image: radial-gradient(rgb(3, 146, 235), yellow); */
+    /* background-image: linear-gradient(rgb(3, 146, 235), rgb(3, 183, 42)); */
+    background-image: radial-gradient(rgb(231, 82, 211), rgb(3, 146, 235));
 }
 
 h1 {
@@ -35,7 +35,7 @@ footer {
     margin-top: 40px;
     padding-top: 20px;
     text-align: center;
-    background-color: rgba(208, 255, 0, 0.8);
+    background-color: rgba(231, 82, 211, 0.8);
     color: rgba(0, 0, 0, 0.5)
     
 }
