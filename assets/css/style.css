@@ -1,0 +1,41 @@
+.background-color {
+    background-image: linear-gradient(rgb(3, 146, 235), rgb(3, 183, 42));
+    /* background-image: radial-gradient(rgb(3, 146, 235), yellow); */
+}
+
+h1 {
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.aryaImg {
+    margin-top: 40px;
+    padding: 5px;
+    height: 300px;
+    width: auto;
+    border: 1px solid black;
+    background-color: black;
+}
+
+.title {
+    /* background-color: black; */
+    font-size: 18px;
+    font-weight: bold;
+    /* border: 1px solid black; */
+    padding: 5px;
+    color: black;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: rgba(208, 255, 0, 0.8);
+    color: rgba(0, 0, 0, 0.5)
+    
+}
