@@ -1,6 +1,6 @@
 console.log("connected")
 
-const aryaImg = document.querySelectorAll(".aryaImg");
+const imgOfUs = document.querySelectorAll("imgOfUs");
 
 const imgOptions = {
     threshold: 1,
@@ -9,7 +9,7 @@ const imgOptions = {
 const imgObserver = new IntersectionObserver((entries, imgObserver) => {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
-            console.log("Arya Image Intersecting!");
+            console.log("Img of Us Intersecting!");
             const dataSrc = entry.target.getAttribute("data-src");
             entry.target.src = dataSrc;
             imgObserver.unobserve(entry.target)
@@ -18,6 +18,6 @@ const imgObserver = new IntersectionObserver((entries, imgObserver) => {
 
 })
 
-aryaImg.forEach((image) => {
+imgOfUs.forEach((image) => {
     imgObserver.observe(image)
 })
